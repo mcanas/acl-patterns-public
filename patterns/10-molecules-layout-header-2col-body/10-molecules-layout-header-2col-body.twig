@@ -1,0 +1,15 @@
+<div class="container-fluid {{ cssClass }}">
+  <div class="row">
+    <div class="col-xs-12">
+      {% block header %}{% endblock %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      {% block body_col_1 %}{% endblock %}
+    </div>
+    <div class="col-xs-12 col-md-6">
+      {% block body_col_2 %}{% endblock %}
+    </div>
+  </div>
+</div>

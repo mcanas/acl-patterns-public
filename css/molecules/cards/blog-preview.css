@@ -1,0 +1,15 @@
+.blog-preview {
+  border-radius: 0; }
+  .blog-preview__image {
+    border-radius: 0;
+    display: inline-block;
+    width: 100%; }
+  .blog-preview__post-meta {
+    color: #818a91;
+    font-size: 0.75rem; }
+  .blog-preview__read-more {
+    color: #55595c;
+    font-weight: bold;
+    text-align: right; }
+
+/*# sourceMappingURL=blog-preview.css.map */

@@ -1,0 +1,17 @@
+<section class="titled-card-list">
+  {% embed "molecules-header-3col-body" with { cssClass: "max-width-lg" } %}
+    {% block header %}
+      <h3 class="titled-card-list__title display-4">Section Title</h3>
+      <p class="titled-card-list__sub-title lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    {% endblock %}
+    {% block body_col_1 %}
+      {% include "molecules-blog-preview" %}
+    {% endblock %}
+    {% block body_col_2 %}
+      {% include "molecules-blog-preview" %}
+    {% endblock %}
+    {% block body_col_3 %}
+      {% include "molecules-blog-preview" %}
+    {% endblock %}
+  {% endembed %}
+</section>
