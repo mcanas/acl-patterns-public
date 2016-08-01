@@ -1,6 +1,7 @@
-{% include "organisms-site-navigation" %}
-{% include "molecules-full-screen-hero" %}
+{% extends "30-templates/00-global/base.twig" %}
 
+{% block main %}
+{% include "molecules-full-screen-hero" %}
 <nav class="shortcut-nav">
   <ul class="shortcut-nav__nav container-fluid max-width-xl">
     <li class="shortcut-nav__item col-xs-6 col-md-2 col-md-offset-1">
@@ -20,14 +21,13 @@
     </li>
   </ul>
 </nav>
-
 {% include "organisms-titled-feature-list" %}
 {% include "molecules-full-width-background-image" %}
 {% include "organisms-titled-card-list" %}
 <section class="contact-us-router">
   <div class="container-fluid max-width-lg">
     <div class="row">
-      <div class="col-xs-12 col-md-4">
+      <div class="col-xs-12 col-md-4 m-b-2">
         <p>Headquarters</p>
         <div class="hq-contact-block">
           <p class="hq-contact-block__title">We are here for you!</p>
@@ -56,4 +56,4 @@
   </div>
 </section>
 {% include "molecules-full-width-background-image" %}
-{% include "organisms-site-footer" %}
+{% endblock %}

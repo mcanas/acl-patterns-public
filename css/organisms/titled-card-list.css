@@ -2,5 +2,7 @@
   padding: 3rem 0; }
   .titled-card-list__title, .titled-card-list__sub-title {
     text-align: center; }
+  .titled-card-list__sub-title {
+    margin-bottom: 3rem; }
 
 /*# sourceMappingURL=titled-card-list.css.map */

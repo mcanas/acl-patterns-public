@@ -2,5 +2,7 @@
   padding: 3rem 0; }
   .titled-feature-list__title, .titled-feature-list__sub-title {
     text-align: center; }
+  .titled-feature-list__sub-title {
+    margin-bottom: 3rem; }
 
 /*# sourceMappingURL=titled-feature-list.css.map */
